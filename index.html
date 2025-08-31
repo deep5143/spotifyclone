@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav >
+        <ul class="nav-list">
+            <li class="brand"><img src="img/logo.png" alt="">  <span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <section class="container" style="background-image: url('bg1.jpg'); background-size: cover; background-position: center;">
+        <div class="slider">
+        <h1>Enjoy your favorite music!</h1>
+        <div class="slider-item">
+            <img src="img/cover/1.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Let me Love You!</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/2.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Long time no see &nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/3.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Die with a smile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/4.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Dil Lagi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/5.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Finding Her &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/6.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Saiyara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        <div class="slider-item">
+            <img src="img/cover/7.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Saiyara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div><div class="slider-item">
+            <img src="img/cover/8.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Saiyara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div><div class="slider-item">
+            <img src="img/cover/9.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Saiyara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div><div class="slider-item">
+            <img src="img/cover/10.jpg" alt="" height="40px" width="40px" class="cover">
+            <span class="song">Saiyara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>05:21</span><span><i  class=" songItemPlay fa-regular fa-2x fa-circle-play" style="cursor: pointer;"></i></span>
+        </div>
+        
+        </div>
+
+        
+    </section>
+
+    <section class="controler">
+        <div class="controler-item">
+            <input type="range" name="range" id="myProgressBar" width="100%" min="0" max="100" value="0">
+        </div>
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i  class=" songItemPlay fas fa-3x fa-step-backward" id="previous"></i>
+            <i  class=" songItemPlay far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i  class=" songItemPlay fas fa-3x fa-step-forward" id="next"></i> 
+
+
+            <div class="songInfo">
+            <img src="img/playing.gif" alt="" height="12px" width="50px" id="gif">
+            <span></span>
+        </div>
+        </div>
+        
+    </section>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/2cbd422ac0.js" crossorigin="anonymous"></script>
+</html>
